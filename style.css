@@ -1,0 +1,74 @@
+.bem-vindo {
+    margin-top: 100px;
+}
+
+.navBar {
+    background-color:#BF4545 !important;
+}
+
+.imagens {
+    border-bottom: 1px solid #F25757;
+    padding-bottom: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+.imagens img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.contato {
+    width: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #BF4545 !important;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.fotinho-minha {
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px; 
+    /* margin-left: 50%; */
+    margin-top: 5%;
+}
+
+.textinho {
+    margin-top: 50px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+.icones img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 30px;
+    object-fit: cover;
+    width: 30px; 
+}
+
+.icones span {
+    font-size: 18;
+    font-family: Arial;
+}
+
+.icones {
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #732929 !important;
+    margin-top: 50px !important;
+}
+
+/* .logo {
+    color: black !important;
+} */
