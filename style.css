@@ -69,6 +69,11 @@ footer {
     margin-top: 50px !important;
 }
 
+/* RESET CSS */
+figure{
+    margin: 0;
+}
+
 /* .logo {
     color: black !important;
 } */
