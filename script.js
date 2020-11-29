@@ -7,9 +7,13 @@ function rolar_para(elemento) {
 }
 
 var instance = M.Carousel.init({
-  fullWidth: true
+  fullWidth: true,
+  indicators: true
 });
 
+// Or with jQuery
+
 $('.carousel.carousel-slider').carousel({
-  fullWidth: true
+  fullWidth: true,
+  indicators: true
 });
