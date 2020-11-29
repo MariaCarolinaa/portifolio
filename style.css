@@ -6,18 +6,10 @@
     background-color:#BF4545 !important;
 }
 
-.imagens {
-    border-bottom: 1px solid #F25757;
-    padding-bottom: 15px;
-    margin-left: 2%;
-    margin-right: 2%;
-    
-}
-
 .imagens img {
-    width: 100%;
-    height: auto;
-    
+    width: 500px !important;
+    height: 590px !important; 
+    margin-left: 30%
 }
 
 .contato {
@@ -41,8 +33,7 @@
 }
 
 .textinho {
-    margin-top: 50px;
-    margin-right: 60px;
+    margin: 50px 10px 0px 10px;
     text-align: justify;
 }
 
@@ -69,6 +60,16 @@ footer {
     margin-top: 50px !important;
 }
 
-/* .logo {
-    color: black !important;
-} */
+/* RESET CSS */
+figure{
+    margin: 0;
+}
+
+.carrousel1 { 
+    height: 75vh; 
+}
+
+.carrousel2 {
+    width: 100% !important;
+    height: 600px;
+}

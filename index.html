@@ -1,5 +1,5 @@
-<HTml>
-<title>Portifólio</title>
+<html>
+<title>Portfólio</title>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
 <head>
@@ -10,77 +10,48 @@
 </head>
 
 <body>
-    <div>
-        <nav>
-            <div class="nav-wrapper navBar">
-                <a href="#" class="brand-logo center logo">Flor</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a onclick="rolar_para('#galeria')">Galeria</a></li>
-                    <li><a onclick="rolar_para('#contato')">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div>
-        <div class="row">
-            <div class="col s12 mt-4">
-                <div class="card horizontal large ">
-                    <div class="card-image">
-                        <img src="img/muie-preto-8.png">
-                    </div>
-                    <div class="card-stacked">
-                        <div class="card-content center bem-vindo">
-                            <h1>Bem Vindo ao meu portifólio!</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <nav>
+        <div class="nav-wrapper navBar">
+            <a href="#" class="brand-logo center logo">Flor</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a onclick="rolar_para('#galeria')">Galeria</a></li>
+                <li><a onclick="rolar_para('#contato')">Contato</a></li>
+            </ul>
         </div>
-        <div class="row">
+    </nav>
+    <main>
+        <header class="row">
+            <br>
+            <section class="col s12 ">
+                <div class="carousel carousel-slider carrousel1">
+                    <a class="carousel-item" href="img/capa-logo.png"><img src="img/capa-logo.png"></a>
+                </div>
+            </section>
+        </header>
+        <section class="row">
             <div>
-                <div class="card contato">
+                <article class="card contato">
                     <div class="card-content" id="galeria">
                         <p>Galeria</p>
                     </div>
-                </div>
+                </article>
             </div>
-        </div>
-        <div class="row imagens">
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/beija flor.png">
+        </section>  
+    <header class="row"> 
+        <section class="col s12">
+            <div class="carousel carousel-slider carrousel2">
+                <a class="carousel-item imagens" href="#one!"><img src="img/muie.png" alt="Mulher de vestido laranja e chapéu azul na praia em frente ao mar."></a>
+                <a class="carousel-item imagens" href="#one!"><img src="img/pavão.png" alt="Desenho de um pavão com as penas coloridas em formato de gotas."></a>
+                <a class="carousel-item imagens" href="#one!"><img src="img/beija flor.png" alt="Três beija flores azuis voando."></a>
+                <a class="carousel-item imagens" href="#one!"><img src="img/gatinho.png" alt="Gato branco deitado deitado em montanhas enquanto brinca com o sol."></a>
+                <a class="carousel-item imagens" href="#two!"><img src="img/deserto.png" alt="Pessoa atravessando um deserto durante a noite de lua cheia."></a>
+                <a class="carousel-item imagens" href="#three!"><img src="img/rosto.jpg" alt="Rosto abstrato composto de formaa geometricas arredondadas."></a>
+                <a class="carousel-item imagens" href="#four!"><img src="img/muie-preto-8.png" alt="Mulher em preto e branco com labios vermelhos."></a>
+                <a class="carousel-item imagens" href="#five!"><img src="img/cartao-de-visita-david.jpeg" alt="Cartão de visita personalizado."></a>
             </div>
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/pavão.png">
-            </div>
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/muie.png">
-            </div>
-        </div>
-
-        <div class="row imagens">
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/gatinho.png">
-            </div>
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/gatin.png">
-            </div>
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/deserto.png">
-            </div>
-        </div>
-
-        <div class="row imagens">
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/rosto.jpg">
-            </div>
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/muie-preto-8.png">
-            </div>
-            <div class="col s4">
-                <img class="materialboxed" width="350px" src="img/cartao-de-visita-david.jpeg">
-            </div>
-        </div>
-        <div class="row">
+        </section>
+    </header>    
+        <section class="row">
             <div class="col s12">
                 <div class="card contato">
                     <div class="card-content" id="contato">
@@ -88,14 +59,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
+        </section>
+        <section class="row">
             <div class="col s12 l4 center">
-                <div>
-                    <img class="fotinho-minha" src="img/minha-fotinho.png" alt="">
-                </div>
+                <figure>
+                    <img class="fotinho-minha" src="img/minha-fotinho.png" alt="Minha foto de perfil">
+                </figure>
             </div>
-            <div class="col s12 l4 center">
+            <article class="col s12 l4 center">
                 <div class="textinho">
                     <p>
                         Oi :3 Meu nome é Maria Carolina Martins, faço Análise e Desenvolvimento de Sitemas na Fatec Praia Grande. 
@@ -104,16 +75,16 @@
                         Dúvidas ou sugestões, só entrar em contato!
                     </p>
                 </div>
-            </div>
-            <div class="col s12 l4">
+            </article>
+            <section class="col s12 l4">
                 <div class="row icones">
                     <div class="col s12">
                         <div class="">
                             <div class="row valign-wrapper">
-                                <div class="col s2">
-                                    <img src="img/gmail.png" alt="" class="circle responsive-img">
+                                <figure class="col s2">
+                                    <img src="img/gmail.png" alt="Logo do gmail" class="circle responsive-img">
                                     <!-- notice the "circle" class -->
-                                </div>
+                                </figure>
                                 <div class="col s10">
                                     <span class="black-text">
                                         mmcmartinss@gmail.com
@@ -125,10 +96,9 @@
                     <div class="col s12">
                         <div class="">
                             <div class="row valign-wrapper">
-                                <div class="col s2">
-                                    <img src="img/instagram.png" alt="" class="circle responsive-img">
-                                    <!-- notice the "circle" class -->
-                                </div>
+                                <figure class="col s2">
+                                    <img src="img/instagram.png" alt="Logo do instagram" class="circle responsive-img">
+                                </figure>
                                 <div class="col s10">
                                     <span class="black-text">
                                         @MariaCarolinaMart1ns
@@ -140,10 +110,9 @@
                     <div class="col s12">
                         <div class="">
                             <div class="row valign-wrapper">
-                                <div class="col s2">
-                                    <img src="img/whatsapp.png" alt="" class="circle responsive-img">
-                                    <!-- notice the "circle" class -->
-                                </div>
+                                <figure class="col s2">
+                                    <img src="img/whatsapp.png" alt="Logo do whatsapp" class="circle responsive-img">
+                                </figure>
                                 <div class="col s10">
                                     <span class="black-text">
                                         (13) 99203-9786
@@ -153,9 +122,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </section>
+        </section>
+    </main>
 
     <footer class="page-footer">
 
@@ -171,4 +140,4 @@
     </script>
 </body>
 
-</HTml>
+</html>

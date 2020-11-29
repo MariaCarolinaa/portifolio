@@ -6,4 +6,10 @@ function rolar_para(elemento) {
     }, 1000);
 }
 
+var instance = M.Carousel.init({
+  fullWidth: true
+});
 
+$('.carousel.carousel-slider').carousel({
+  fullWidth: true
+});
