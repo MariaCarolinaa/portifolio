@@ -12,6 +12,17 @@
     margin-left: 30%
 }
 
+.desenhos img{
+    width: 300px;
+    margin-left: 60px;
+}
+
+.titulos p{
+    font-family: fantasy;
+    color: #A63F5A;
+    font-size: 80px;
+}
+
 .contato {
     width: auto;
     margin-left: 1%;
@@ -67,7 +78,7 @@ figure{
 }
 
 .carrousel1 { 
-    height: 75vh; 
+    height: 85vh; 
 }
 
 .carrousel2 {
